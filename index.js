@@ -26,4 +26,4 @@ res.render("index", {title: "Favorite Foods", foods: ["sandwich", "corn dog"]})
 app.get("/animals", function(req, res) {
 res.render("animals", {title: "Favorite Animals", animals: ["sand crab", "corny joke dog"]}) });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
