@@ -16,7 +16,7 @@ app.use(express.static(__dirname + '/public'));
 app.use("/people", peopleCtrl);
 
 
-mongoose.connect('mongodb://localhost/jstc');
+mongoose.connect('mongodb://brianb:aaj2003@ds131340.mlab.com:31340/jstc');
 
 
 app.get("/", function(req, res) {
