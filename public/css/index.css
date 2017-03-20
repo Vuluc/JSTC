@@ -287,6 +287,8 @@ p {
   position: relative;
   height:400px;
     width:400px;
+    margin-top: 162px;
+    margin-left: 495px;
 }
 
 .main-logo {
@@ -331,7 +333,45 @@ background-color:rgba(0, 0, 0, 0.1) !important
   z-index: 998;
 }
 
+.contact-box {
+  opacity: 0.6 !important;
+    margin-left: 495px;
+}
 
+.insta-widget {
+  width: 300px;
+  height: 500px;
+  float: right;
+  margin-top: 67px;
+  margin-right: 67px;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.insta-icon {
+  position: absolute;
+  top:8px;
+  right: 8px;
+  color: white;
+
+}
+
+.fb-icon {
+position: absolute;
+  bottom:8px;
+  right: 8px;
+  color: white;
+}
+.tumblr-icon {
+position: absolute;
+  bottom:8px;
+  left: 8px;
+  color: white;
+}
+
+.insta-container {
+  display: inline-block !important;
+}
 
 .logo a {
   font-weight: 400;
@@ -365,10 +405,9 @@ background-color:rgba(0, 0, 0, 0.1) !important
   display: none;
 }
 .top-banner-header {
-  display: table;
+  display: inline-block;
   background-color: black;
   height: 50vh;
-  margin: 0 auto;
   min-height: 100%;
 }
 @media (max-width: 768px) {
@@ -465,6 +504,16 @@ background-color:rgba(0, 0, 0, 0.1) !important
   margin-left: 10px;
   padding-left: 10px;
 }
+
+.epk-title-container {
+  background-color: lightgrey;
+}
+
+.epk-container {
+  background-color: lightgrey;
+}
+
+
 #search {
   height: 50px;
   width: 100%;
@@ -631,6 +680,9 @@ background-color:rgba(0, 0, 0, 0.1) !important
 }
 .menu-container {
   padding: 15px;
+}
+.menu-container h2 {
+  color: burlywood !important;
 }
 .menu-list li {
   margin: 13.33333333px 0;
